@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Survey</title>
+    <!-- Bootstrap css -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+        crossorigin="anonymous">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="jumbotron">
+                    <h1 class="display-4">
+                        <i class="fas fa-user-friends"></i> Friend-Finder</h1>
+                </div>
+            </div>
+            <div class="col-md-12">
+                <form>
+                    <div class="form-group">
+                        <label for="inputName">Name (Required)</label>
+                        <input type="text" class="form-control" id="inputName" placeholder="Name">
+                    </div>
+                    <div class="form-group">
+                        <label for="inputPhoto">Link to Photo Image (Required)</label>
+                        <input type="text" class="form-control" id="inputPhoto">
+                    </div>
+                    <hr>
+                    <h5 class="text-danger">Please choose between 1 (Strongly Agree) to 5 (Strongly Disagree) for each
+                        question:</h5>
+                    <br>
+                    <div class="form-group">
+                        <h5 for="select1" class="font-weight-bold">Question 1</h5>
+                        <p>Does romantic gifts have to be useful?</p>
+                        <select class="form-control" id="select1">
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <h5 for="select2" class="font-weight-bold">Question 2</h5>
+                        <p>How much do you like the idea of getting married and having kids some day?</p>
+                        <select class="form-control" id="select2">
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <h5 for="select3" class="font-weight-bold">Question 3</h5>
+                        <p>Does sexual chemistry have a crucial role in the relationship?</p>
+                        <select class="form-control" id="select3">
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <h5 for="select4" class="font-weight-bold">Question 4</h5>
+                        <p>In an argument, you would take your partner side upon your mother?</p>
+                        <select class="form-control" id="select4">
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <h5 for="select5" class="font-weight-bold">Question 5</h5>
+                        <p>Would you feel insecure if your partner will spend a lot of time at work?</p>
+                        <select class="form-control" id="select5">
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <h5 for="select6" class="font-weight-bold">Question 6</h5>
+                        <p>Is sex about constantly pushing the boundaries?</p>
+                        <select class="form-control" id="select6">
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <h5 for="select7" class="font-weight-bold">Question 7</h5>
+                        <p>Is having a good looking partner more important than having a clever one?</p>
+                        <select class="form-control" id="select7">
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <h5 for="select8" class="font-weight-bold">Question 8</h5>
+                        <p>Would you lie to make your partner happy?</p>
+                        <select class="form-control" id="select8">
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <h5 for="select9" class="font-weight-bold">Question 9</h5>
+                        <p>Do past relationship secrets should always be kept hidden?</p>
+                        <select class="form-control" id="select9">
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <h5 for="select10" class="font-weight-bold">Question 10</h5>
+                        <p>How likly are you to compromise your happiness for the success of the relationship?</p>
+                        <select class="form-control" id="select10">
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                        </select>
+                    </div>
+                    <button type="Submit" id="submitForm" class="btn btn-primary">Submit</button>
+                </form>
+                <br>
+            </div>
+            <div class="col-md-12">
+                <a href="/api/friends">API Friends List</a>
+                <a> | </a>
+                <a href="">Heroku Repo</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Jquery -->
+    <script src='https://code.jquery.com/jquery-3.3.1.min.js' integrity='sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8='
+        crossorigin='anonymous'></script>
+
+    <script>
+
+        $("#submitForm").on("click", function (event) {
+            event.preventDefault();
+
+            var newFriend = {
+                name: $("#inputName").val().trim(),
+                photo: $("#inputPhoto").val().trim(),
+                scores: [
+                    $("#select1").val().trim(),
+                    $("#select2").val().trim(),
+                    $("#select3").val().trim(),
+                    $("#select4").val().trim(),
+                    $("#select5").val().trim(),
+                    $("#select6").val().trim(),
+                    $("#select7").val().trim(),
+                    $("#select8").val().trim(),
+                    $("#select9").val().trim(),
+                    $("#select10").val().trim()
+                ]
+            };
+
+            $.get("/api/friends", function (existingData) {
+
+                $.post("/api/friends", newFriend, function (newData) {
+
+                    // comparing
+                    var chosenDifference = undefined;
+                    var chosenName = undefined;
+                    var chosenPhoto = undefined;
+
+                    existingData.forEach(element => {
+                        var curentDifference = comaringNewDataToExistingData(element, newFriend);
+                        if (curentDifference < chosenDifference || chosenDifference === undefined) {
+                            chosenDifference = curentDifference;
+                            chosenName = element.name;
+                            chosenPhoto = element.photo;
+                        };
+                        // show chosen data
+                        console.log(chosenName, chosenPhoto)
+
+                    });
+
+                    // cleaning
+                    $("#inputName").val("");
+                    $("#inputPhoto").val("");
+                    $("#select1").val("");
+                    $("#select2").val("");
+                    $("#select3").val("");
+                    $("#select4").val("");
+                    $("#select5").val("");
+                    $("#select6").val("");
+                    $("#select7").val("");
+                    $("#select8").val("");
+                    $("#select9").val("");
+                    $("#select10").val("");
+
+                });
+            });
+        });
+
+        function comaringNewDataToExistingData(existingObject, newObject) {
+            var tatalDifference = 0;
+            existingObject.scores.forEach((element, index) => {
+                var difference = Math.abs(+element - +newObject.scores[index])
+                tatalDifference = tatalDifference + difference;
+            });
+            return tatalDifference;
+        };
+
+    </script>
+</body>
+
+</html>
